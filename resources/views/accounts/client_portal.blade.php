@@ -29,11 +29,11 @@
 {!! Former::populateField('enable_buy_now_buttons', intval($account->enable_buy_now_buttons)) !!}
 
 @if (!Utils::isNinja() && !Auth::user()->account->hasFeature(FEATURE_WHITE_LABEL))
-<div class="alert alert-warning" style="font-size:larger;">
+{{--<div class="alert alert-warning" style="font-size:larger;">
 	<center>
 		{!! trans('texts.white_label_custom_css', ['price' => WHITE_LABEL_PRICE, 'link'=>'<a href="#" onclick="$(\'#whiteLabelModal\').modal(\'show\');">'.trans('texts.white_label_purchase_link').'</a>']) !!}
 	</center>
-</div>
+</div> --}}
 @endif
 
 @include('accounts.nav', ['selected' => ACCOUNT_CLIENT_PORTAL])

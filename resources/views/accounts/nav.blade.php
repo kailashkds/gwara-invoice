@@ -22,9 +22,11 @@
                 </div>
                 <div class="list-group">
                     @foreach ($settings as $section)
+		@if ($section != 'client_portal') 
                         <a href="{{ URL::to("settings/{$section}") }}" class="list-group-item {{ $selected === $section ? 'selected' : '' }}"
                             style="width:100%;text-align:left">{{ trans("texts.{$section}") }}</a>
-                    @endforeach
+@endif                    
+@endforeach
                     @if ($type === ADVANCED_SETTINGS && !Utils::isNinjaProd())
                         <a href="{{ URL::to("settings/system_settings") }}" class="list-group-item {{ $selected === 'system_settings' ? 'selected' : '' }}"
                             style="width:100%;text-align:left">{{ trans("texts.system_settings") }}</a>

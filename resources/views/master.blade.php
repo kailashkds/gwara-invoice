@@ -4,7 +4,7 @@
     @if (isset($account) && $account instanceof \App\Models\Account && $account->hasFeature(FEATURE_WHITE_LABEL))
         <title>{{ trans('texts.client_portal') }}</title>
     @else
-        <title>{{ isset($title) ? ($title . ' | Invoice Ninja') : ('Invoice Ninja | ' . trans('texts.app_title')) }}</title>
+        <title>{{ isset($title) ? ($title . ' | Gawara Invoice') : ('Gwara Invoice | ' . trans('texts.app_title')) }}</title>
         <meta name="description" content="{{ isset($description) ? $description : trans('texts.app_description') }}"/>
         <link href="{{ asset('favicon-v2.png') }}" rel="shortcut icon" type="image/png">
     @endif

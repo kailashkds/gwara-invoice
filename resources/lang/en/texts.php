@@ -235,7 +235,7 @@ $LANG = array(
     'archived_vendors' => 'Successfully archived :count vendors',
     'deleted_vendor' => 'Successfully deleted vendor',
     'deleted_vendors' => 'Successfully deleted :count vendors',
-    'confirmation_subject' => 'Invoice Ninja Account Confirmation',
+    'confirmation_subject' => 'Gwara Invoice Account Confirmation',
     'confirmation_header' => 'Account Confirmation',
     'confirmation_message' => 'Please access the link below to confirm your account.',
     'invoice_subject' => 'New invoice :invoice from :account',
@@ -244,7 +244,7 @@ $LANG = array(
     'payment_message' => 'Thank you for your payment of :amount.',
     'email_salutation' => 'Dear :name,',
     'email_signature' => 'Regards,',
-    'email_from' => 'The Invoice Ninja Team',
+    'email_from' => 'The Gwara Invoice Team',
     'invoice_link_message' => 'To view the invoice click the link below:',
     'notification_invoice_paid_subject' => 'Invoice :invoice was paid by :client',
     'notification_invoice_sent_subject' => 'Invoice :invoice was sent to :client',
@@ -260,7 +260,7 @@ $LANG = array(
     'cvv' => 'CVV',
     'logout' => 'Log Out',
     'sign_up_to_save' => 'Sign up to save your work',
-    'agree_to_terms' => 'I agree to the Invoice Ninja :terms',
+    'agree_to_terms' => 'I agree to the Gwara Invoice :terms',
     'terms_of_service' => 'Terms of Service',
     'email_taken' => 'The email address is already registered',
     'working' => 'Working',
@@ -269,7 +269,7 @@ $LANG = array(
     'erase_data' => 'This will permanently erase your data.',
     'password' => 'Password',
     'pro_plan_product' => 'Pro Plan',
-    'pro_plan_success' => 'Thanks for choosing Invoice Ninja\'s Pro plan!<p/>&nbsp;<br/>
+    'pro_plan_success' => 'Thanks for choosing Gwara Invoice\'s Pro plan!<p/>&nbsp;<br/>
                           <b>Next Steps</b><p/>A payable invoice has been sent to the email
                           address associated with your account. To unlock all of the awesome
                           Pro features, please follow the instructions on the invoice to pay
@@ -517,8 +517,8 @@ $LANG = array(
     'auto_wrap' => 'Auto Line Wrap',
     'duplicate_post' => 'Warning: the previous page was submitted twice. The second submission had been ignored.',
     'view_documentation' => 'View Documentation',
-    'app_title' => 'Free Open-Source Online Invoicing',
-    'app_description' => 'Invoice Ninja is a free, open-source solution for invoicing and billing customers. With Invoice Ninja, you can easily build and send beautiful invoices from any device that has access to the web. Your clients can print your invoices, download them as pdf files, and even pay you online from within the system.',
+    'app_title' => 'Cloud Online Invoicing',
+    'app_description' => 'Gwara Invoice is a cloud solution for invoicing and billing customers. With Gwara Invoice, you can easily build and send beautiful invoices from any device that has access to the web. Your clients can print your invoices, download them as pdf files, and even pay you online from within the system.',
     'rows' => 'rows',
     'www' => 'www',
     'logo' => 'Logo',
@@ -592,7 +592,7 @@ $LANG = array(
     'pro_plan_feature1' => 'Create Unlimited Clients',
     'pro_plan_feature2' => 'Access to 10 Beautiful Invoice Designs',
     'pro_plan_feature3' => 'Custom URLs - "YourBrand.InvoiceNinja.com"',
-    'pro_plan_feature4' => 'Remove "Created by Invoice Ninja"',
+    'pro_plan_feature4' => 'Remove "Created by Gwara Invoice"',
     'pro_plan_feature5' => 'Multi-user Access & Activity Tracking',
     'pro_plan_feature6' => 'Create Quotes & Pro-forma Invoices',
     'pro_plan_feature7' => 'Customize Invoice Field Titles & Numbering',
@@ -995,7 +995,7 @@ $LANG = array(
     'overdue' => 'Overdue',
 
 
-    'white_label_text' => 'Purchase a ONE YEAR white label license for $:price to remove the Invoice Ninja branding and help support our project.',
+    'white_label_text' => 'Purchase a ONE YEAR white label license for $:price to remove the Gwara Invoice branding and help support our project.',
     'user_email_footer' => 'To adjust your email notification settings please visit :link',
     'reset_password_footer' => 'If you did not request this password reset please email our support: :email',
     'limit_users' => 'Sorry, this will exceed the limit of :limit users',
@@ -1004,7 +1004,7 @@ $LANG = array(
     'white_label_custom_css' => ':link for $:price to enable custom styling and help support our project.',
     'bank_accounts_help' => 'Connect a bank account to automatically import expenses and create vendors. Supports American Express and <a href=":link" target="_blank">400+ US banks.</a>',
 
-    'pro_plan_remove_logo' => ':link to remove the Invoice Ninja logo by joining the Pro Plan',
+    'pro_plan_remove_logo' => ':link to remove the Gwara Invoice logo by joining the Pro Plan',
     'pro_plan_remove_logo_link' => 'Click here',
     'invitation_status_sent' => 'Email Sent',
     'invitation_status_opened' => 'Email Openend',
@@ -1149,11 +1149,11 @@ $LANG = array(
 
     'white_label_button' => 'White Label',
 
-    'pro_plan_year_description' => 'One year enrollment in the Invoice Ninja Pro Plan.',
-    'pro_plan_month_description' => 'One month enrollment in the Invoice Ninja Pro Plan.',
+    'pro_plan_year_description' => 'One year enrollment in the Gwara Invoice Pro Plan.',
+    'pro_plan_month_description' => 'One month enrollment in the Gwara Invoice Pro Plan.',
     'enterprise_plan_product' => 'Enterprise Plan',
-    'enterprise_plan_year_description' => 'One year enrollment in the Invoice Ninja Enterprise Plan.',
-    'enterprise_plan_month_description' => 'One month enrollment in the Invoice Ninja Enterprise Plan.',
+    'enterprise_plan_year_description' => 'One year enrollment in the Gwara Invoice Enterprise Plan.',
+    'enterprise_plan_month_description' => 'One month enrollment in the Gwara Invoice Enterprise Plan.',
     'plan_credit_product' => 'Credit',
     'plan_credit_description' => 'Credit for unused time',
     'plan_pending_monthly' => 'Will switch to monthly on :date',
@@ -1324,7 +1324,7 @@ $LANG = array(
     'products_will_create' => 'products will be created.',
     'product_key' => 'Product',
     'created_products' => 'Successfully created :count product(s)',
-    'export_help' => 'Use JSON if you plan to import the data into Invoice Ninja.',
+    'export_help' => 'Use JSON if you plan to import the data into Gwara Invoice.',
     'JSON_file' => 'JSON File',
 
     'view_dashboard' => 'View Dashboard',
@@ -2040,7 +2040,7 @@ $LANG = array(
     'buy_now_buttons_disabled' => 'This feature requires that a product is created and a payment gateway is configured.',
     'enable_buy_now_buttons_help' => 'Enable support for buy now buttons',
     'changes_take_effect_immediately' => 'Note: changes take effect immediately',
-    'wepay_account_description' => 'Payment gateway for Invoice Ninja',
+    'wepay_account_description' => 'Payment gateway for Gwara Invoice',
     'payment_error_code' => 'There was an error processing your payment [:code]. Please try again later.',
     'standard_fees_apply' => 'Standard fees apply: 2.9% + $0.30 per successful charge.',
     'limit_import_rows' => 'Data needs to be imported in batches of :count rows or less',

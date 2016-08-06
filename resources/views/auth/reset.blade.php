@@ -60,7 +60,7 @@
 
   <div class="modal-header">
     <img src="{{ asset('images/icon-login.png') }}" />
-    <h4>Invoice Ninja | {{ trans('texts.set_password') }}</h4></div>
+    <h4>Gwara Invoice | {{ trans('texts.set_password') }}</h4></div>
     <div class="inner">
 
       <input type="hidden" name="token" value="{{{ $token }}}">
